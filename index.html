@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morgan Muuo Mutuku</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+    <style>
+       
+      body{
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f4f4f4;
+          color: #000;
+      }
+
+      header {
+          background-color: gainsboro;
+          color: black;
+          padding: 1rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          cursor: pointer;
+      }
+
+      .logo { 
+          font-weight: bold;
+          font-size: 1.5rem;
+          cursor: pointer;
+      }
+
+      nav ul {
+          list-style: none;
+          display: flex;
+          gap: 1rem;
+      }
+
+      nav ul li {
+          cursor: pointer;
+          color: white;
+          text-decoration: none;
+      }
+
+      nav ul li a {
+          color: black;
+          text-decoration: none;
+          padding: 0.5rem;
+          transition: border-bottom 0.3s, color 0.3s;
+      }
+
+      nav ul li a:hover {
+          border-bottom: 2px solid #2e7d32;
+          color: brown;
+      }
+
+      #hero {
+          text-align: center;
+          padding: 2rem;
+          background-color: wheat;
+      }
+
+      .profile-image {
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          object-fit: cover;
+      }
+
+      section {
+          background: gainsboro;
+          margin: 1.5rem auto;
+          padding: 2rem;
+          max-width: 800px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+
+      .download-btn {
+        display: inline-block;
+        background-color: #2e7d32;
+        color: wheat;
+        padding: 0.75rem 1.5rem;
+        margin-top: 1rem;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+      }
+
+      .download-btn:hover {
+        background-color: #1b5e20;
+      }
+
+      #experience {
+        background-color: gainsboro;
+        margin: 1.5rem auto;
+        padding: 2rem;
+        max-width: 800px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      }
+
+      .job h3 {
+        color: black;
+        margin-bottom: 0.2rem;
+      }
+
+      .job p {
+        font-style: italic;
+        color: #666;
+        margin-top: 0;
+      }
+
+      .job ul {
+        margin-top: 0.5rem;
+        padding-left: 1.2rem;
+      }
+
+      h2 {
+          color: black;
+      }
+
+      ul {
+          padding-left: 1.2rem;
+      }
+
+      form input,
+      form textarea {
+          width: 100%;
+          padding: 0.8rem;
+          margin-bottom: 1rem;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+      }
+
+      form button {
+          background: #2e7d32;
+          color: wheat;
+          border: none;
+          padding: 0.8rem 1.5rem;
+          border-radius: 5px;
+          cursor: pointer;
+      }
+
+      form button:hover {
+          background: #1b5e20;
+      }
+
+      footer {
+          text-align: center;
+          padding: 1rem;
+          background-color: #333;
+          color: gainsboro;
+          position: relative;
+          bottom: 0;
+          width: 100%;
+      }
+
+      #backToTop {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background-color: #2e7d32;
+        color: wheat;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        cursor: pointer;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease, transform 0.3s ease;
+      }
+
+      #backToTop:hover {
+        background-color: #1b5e20;
+        transform: scale(1.1);
+      }
+
+      #backToTop i {
+        pointer-events: none; 
+      }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="logo">MMM</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Languages</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id = "hero">
+        <img src="morgan.jpg" alt="Morgan Muuo Mutuku" class="profile-image">
+        <h1>Hello, welcome to the world of analysis</h1>
+        <p><p>A data analyst passionate about transforming raw data into powerful stories and solutions.</p>
+        <p>With a keen eye for detail and a love for numbers, I thrive on uncovering insights that drive informed decisions.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Proactive and technically adept Data Analyst with over an year of hands-on experience in extracting, transforming, and analyzing data to drive strategic business decisions. Skilled in SQL, Python, ETL processes, and cloud platforms, with a growing focus on data engineering and automation. Known for building efficient data pipelines, streamlining workflows, and supporting cross-functional teams with data-backed solutions. Currently seeking to leverage analytical and technical strengths in a Data Engineer/Analysis role within a forward-thinking organization.
+        </p>
+    </section>
+
+    <section id="education">
+       <h2>Education</h2>
+       <p><strong>Diploma in Information Technology</strong><br>KCA University, 2022</p>
+       <p><strong>Data Analysis Course</strong><br>Sankhyana Education, 2024</p>
+       <a href="Morgan_Muuo_Mutuku_R.docx" download class="download-btn">📄 Download My CV</a>
+    <section>
+
+    <section id="experience">
+       <h2>Professional Experience</h2>
+
+      <div class="job">
+        <h3>Junior Data Analyst (Trainee) – Kenyatta National Hospital</h3>
+        <p><em>May 2022 – October 2022</em></p>
+           <ul>
+              <li>Provided technical support and troubleshooting across hospital systems.</li>
+              <li>Assisted in ERP system rollout, focusing on patient admission/discharge workflows.</li>
+              <li>Developed stored procedures and optimized queries to improve performance.</li>
+              <li>Built real-time dashboards and KPIs using Power BI.</li>
+              <li>Collaborated across departments to improve data consistency and reporting.</li>
+            </ul>
+      </div>
+
+      <div class="job">
+        <h3>Data Analyst – Sankhyana Education (Remote)</h3>
+        <p><em>March 2024 – August 2024</em></p>
+        <ul>
+          <li>Built SQL dashboards for course performance and revenue insights.</li>
+          <li>Automated data validation and cleansing processes using Python scripts.</li>
+          <li>Monitored data accuracy and reliability across reporting systems.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>Freelance Data Analyst – Self-employed (Remote)</h3>
+        <p><em>Ongoing</em></p>
+       <ul>
+        <li>Performed data cleaning, market analysis, and customer segmentation for a skincare brand.</li>
+        <li>Created time series and sales dashboards to inform business strategy.</li>
+        <li>Mapped acquisition channels and conversion metrics using data fusion.</li>
+        <li>Delivered reports with actionable insights for promotions and inventory planning.</li>
+       </ul>
+      </div>
+
+    </section>
+
+
+    <section id="skills">
+       <h2>Programming Languages</h2>
+       <ul>
+           <li>Data Engineering: SQL scripting, Python automation, data warehousing, ETL/ELT, APIs.</li>
+           <li>Databases & Tools: MySQL, Oracle ERP Cloud, BigQuery, Power BI, Tableau.</li>
+           <li>Programming & Analysis: Python (Pandas, NumPy, Matplotlib, Seaborn).</li>
+           <li>Visualization & Reporting: Power BI, Tableau, Excel (advanced functions, pivot tables).</li>
+           <li>Cloud Platforms: Google Cloud Platform, basic AWS exposure.</li>
+           <li>Soft Skills: Cross-functional collaboration, stakeholder reporting, problem-solving, adaptability</li>
+        </ul>
+  </section>
+
+  <section id="interests">
+    <h2>Interests</h2>
+      <p>
+        I’m excited about the future of data engineering, automation, and cloud-based analytics.
+      </p>
+      <p>I love cars and everything about cars</p>
+      <p>Adventure, camping and travelling</p>
+      <p>Reading and writing</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <ul>
+      <li><strong>ERP Analytics at KNH</strong> – <a href="#" onclick="alert('Link coming soon!')"> Project</a>: Built Power BI dashboards for hospital KPIs and SQL procedures for real-time reporting.</li>
+      <li><strong>Freelance Market Analysis</strong> – <a href="#" onclick="alert('Link coming soon!')"> Project</a>: Analyzed skincare product data to identify trends and customer segments.</li>
+      <li><strong>Sankhyana Course Performance Tracker</strong> – <a href="#" onclick="alert('Link coming soon!')"> Project</a>: Designed SQL dashboards for tracking learning performance.</li>
+    </ul>
+  </section>
+
+   <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formsubmit.co/morganmutuku20@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required><br>
+      <input type="email" name="email" placeholder="Your Email" required><br>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br>
+      <button type="submit">Send Message</button>
+    </form>
+   </section>
+
+    <footer>
+        <p>&copy; 2025 Morgan Muuo Mutuku. All rights reserved.</p>
+    
+    </footer>
+    
+    <button id="backToTop" title="Back to Top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+      window.onscroll = function () {
+        const button = document.getElementById("backToTop");
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+          button.style.display = "block";
+      }   else {
+        button.style.display = "none";
+      }
+    };
+
+      document.getElementById("backToTop").onclick = function () {
+       window.scrollTo({ top: 0, behavior: 'smooth' });
+     };
+    </script>
+
+
+  
+  </body> 
+
+</html>
